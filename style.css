@@ -22,6 +22,12 @@ body {
 /***********************************************************************
  *  Nav Bar
  **********************************************************************/
+.sticky{
+    position: fixed;
+    top:0;
+    width:100%;
+}
+
 .main-nav {
     display: flex;
     list-style: none;
@@ -60,6 +66,11 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 30px;
+}
+
+.cover{
+    width: 30rem;
 }
 
 /***********************************************************************
